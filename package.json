@@ -1,0 +1,29 @@
+{
+  "name": "triggerChange",
+  "version": "1.0.0",
+  "description": "trigger a change event on an element",
+  "main": "index.js",
+  "scripts": {
+    "test": "browserify test.js | testling"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/coleww/trigger-change"
+  },
+  "keywords": [
+    "event",
+    "trigger",
+    "change"
+  ],
+  "author": "Cole Willsea <coleww@gmail.com> (http://colewillsea.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/coleww/trigger-change/issues"
+  },
+  "homepage": "https://github.com/coleww/trigger-change",
+  "devDependencies": {
+    "browserify": "^10.2.0",
+    "tape": "^4.0.0",
+    "testling": "^1.7.1"
+  }
+}
